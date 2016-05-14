@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.salim.bigapp.FICTProgrammes"
+    android:background="@android:color/darker_gray">
+
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc.in Businesss Intelligence System"
+        android:id="@+id/buttonbsc"
+        android:contentDescription="salem ayad"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc.in Cloud Computing Technology"
+        android:id="@+id/buttonPRO1"
+            android:layout_below="@+id/buttonbsc"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/buttonbsc"
+            android:layout_alignEnd="@+id/buttonbsc" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc.in Mobile Computing"
+        android:id="@+id/buttonGallery1"
+
+            android:layout_below="@+id/buttonPRO1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/buttonPRO1"
+            android:layout_alignEnd="@+id/buttonPRO1" />
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc.in Business Information Technology"
+        android:id="@+id/buttonGraduates1"
+            android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:enabled="true"
+        android:longClickable="false"
+            android:layout_below="@+id/buttonGallery1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/buttonGallery1"
+            android:layout_alignEnd="@+id/buttonGallery1" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BSc.in Electronic Commerce"
+            android:id="@+id/button61"
+            android:layout_below="@+id/buttonGraduates1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc.in Games Technology"
+        android:id="@+id/button71"
+
+            android:layout_below="@+id/button61"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button61"
+            android:layout_alignEnd="@+id/button61" />
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc.in Information Technology"
+        android:id="@+id/button81"
+        android:layout_below="@+id/button71"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button71"
+            android:layout_alignEnd="@+id/button71" />
+
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc.in Software Engineering With Multimedia"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button81"
+        android:layout_alignRight="@+id/button81"
+        android:layout_alignEnd="@+id/button81" />
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BSc.in Instrctional Technology"
+        android:id="@+id/button101"
+
+            android:layout_below="@+id/button6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/button6"
+            android:layout_alignEnd="@+id/button6" />
+
+
+
+
+
+</RelativeLayout>

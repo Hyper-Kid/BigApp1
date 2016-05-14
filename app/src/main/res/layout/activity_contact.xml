@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.salim.bigapp.contact"
+    android:background="@android:color/darker_gray" >
+
+
+    <ImageButton
+        android:layout_width="172dp"
+        android:layout_height="170dp"
+        android:text="New Button"
+        android:id="@+id/button5"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:background="@drawable/call"/>
+
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:text="New Button"
+        android:id="@+id/button4"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:background="@drawable/mail"/>
+
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:id="@+id/imageButton"
+        android:layout_row="0"
+        android:layout_column="9"
+        android:background="@drawable/loc1"
+        />
+
+</GridLayout>

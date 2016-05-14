@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.salim.bigapp.Lecturers">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lecturers"
+        android:textColor="@android:color/black"
+        android:textSize="60dp"
+        android:freezesText="true"
+        android:id="@+id/textView3"
+        android:layout_above="@+id/FICT"
+        android:layout_centerHorizontal="true" />
+
+
+    <ViewFlipper
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewFlipper2">
+
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imagevc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mrwael"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imagehhhf"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mrtony"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imagegg"
+            android:scaleType="centerCrop"
+            android:background="@drawable/mrhon"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imagehhh"
+            android:scaleType="centerCrop"
+            android:background="@drawable/mrnory"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/image32"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mebetic"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imagehl"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mrveno"/>
+
+    </ViewFlipper>
+
+
+    <Button
+        android:id="@+id/NEXT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="#230707"
+        android:text="NEXT"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/previous1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="prev"
+        android:layout_alignTop="@id/NEXT"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#230707"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>

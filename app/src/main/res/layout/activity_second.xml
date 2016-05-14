@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.salim.bigapp.second"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limkokwing University of Creative Technology is a private international university with a presence across Africa, Europe and Asia. With its main campus in Malaysia, the university has over 30,000 students from more than 150 countries, studying in its 12 other campuses in Botswana, Cambodia, China, Indonesia, Lesotho, Sierra Leone, Swaziland and the United Kingdom accredited by Accreditation Service for International Colleges and Universities (ASIC)."
+        android:id="@+id/textView2"
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tan Sri Dato’ Sri Paduka Dr Lim Kok Wing is the founder and president of Limkokwing University of Creative Technology.He established Wings Creative Consultants in 1975."
+        android:textSize="18dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
